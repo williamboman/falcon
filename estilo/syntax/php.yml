@@ -1,8 +1,8 @@
 phpConstant: '' # Constant
 phpCoreConstant: '' # Constant
 phpComment: '' # Comment
-phpCommentTitle: 'light_gray'
-phpDocTags: 'br_yellow' # PreProc
+phpCommentTitle: 'light_gray - i'
+phpDocTags: 'br_yellow - i' # PreProc
 phpDocCustomTags: 'br_blue' # Type
 phpException: '' # Exception
 phpBoolean: '' # Boolean
@@ -24,7 +24,7 @@ phpConditional: '' # Conditional
 phpLabel: '' # Label
 phpStatement: '' # Statement
 phpKeyword: 'yellow' # Statement
-phpType: 'br_yellow' # Type
+phpType: 'white' # Type
 phpInclude: '' # Include
 phpDefine: '' # Define
 phpBackslashSequences: '' # SpecialChar
@@ -47,8 +47,11 @@ phpDocTodo: '' # Todo
 phpMemberSelector: 'light_gray' # Structure
 phpIntVar: '' # Identifier
 phpEnvVar: '' # Identifier
-phpOperator: 'yellow' # Operator
+phpOperator: 'orange' # Operator
 phpVarSelector: 'normal_gray' # Operator
 phpRelation: '' # Operator
 phpIdentifier: 'blue_gray' # Identifier
 phpIdentifierSimply: '' # Identifier
+phpStringDelimiter: 'normal_gray'
+phpSuperglobals: 'green'
+phpSpecialChar: 'green'
