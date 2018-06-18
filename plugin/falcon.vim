@@ -16,7 +16,6 @@ let g:fzf_colors =
 
 " NeoVim has support for changing background colour depending on active or not
 if exists('+winhighlight')
-  hi ActiveWindow guibg=NONE | hi InactiveWindow guibg=#141420
   set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
 endif
 
