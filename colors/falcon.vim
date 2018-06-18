@@ -346,8 +346,8 @@ hi zshParrentheses guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE ct
 " ===================================
 
 " fix colors (TODO: fix cterm colors?)
-hi Normal guifg=#afafb2 guibg=#171717
-hi NonText guifg=#afafb2 guibg=#171717
+hi Normal guifg=#afafb2 guibg=NONE ctermbg=NONE
+hi NonText guifg=#afafb2 guibg=NONE ctermbg=NONE
 hi WildMenu guifg=#171717
 hi String guifg=#e0e0e0 gui=italic cterm=italic
 hi Include guifg=#f74f57
