@@ -376,3 +376,8 @@ hi GitGutterAdd ctermfg=NONE guifg=#6b9a3e
 hi GitGutterChange ctermfg=NONE guifg=#ffac59
 hi GitGutterDelete ctermfg=NONE guifg=#d83600
 hi GitGutterChangeDelete ctermfg=NONE guifg=#ff8000
+
+" import-cost
+hi importCostModule guifg=#cc6766 gui=bold cterm=bold
+hi importCostSize guifg=#e8c675 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi importCostGzipped guifg=#dc925e gui=italic cterm=italic
