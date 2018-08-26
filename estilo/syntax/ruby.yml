@@ -1,5 +1,7 @@
-rubyClass: '' # rubyDefine
-rubyModule: '' # rubyDefine
+rubyClass: 'light_gray' # rubyDefine
+rubyClassName: '@Normal'
+rubyModule: 'light_gray' # rubyDefine
+rubyModuleName: '@Normal'
 rubyMethodExceptional: '' # rubyDefine
 rubyDefine: 'yellow' # Define
 rubyFunction: 'normal_gray' # Function
@@ -18,8 +20,8 @@ rubyBoolean: '' # Boolean
 rubyException: '' # Exception
 rubyIdentifier: '' # Identifier
 rubyClassVariable: '' # rubyIdentifier
-rubyConstant: 'br_yellow' # Type
-rubyGlobalVariable: '' # rubyIdentifier
+rubyConstant: '@Constant' # Type
+rubyGlobalVariable: 'lavender - b' # rubyIdentifier
 rubyBlockParameter: '' # rubyIdentifier
 rubyInstanceVariable: '' # rubyIdentifier
 rubyPredefinedIdentifier: '' # rubyIdentifier
@@ -32,7 +34,7 @@ rubyBeginEnd: '' # Statement
 rubyAccess: '' # Statement
 rubyAttribute: '' # Statement
 rubyEval: '' # Statement
-rubyPseudoVariable: '' # Constant
+rubyPseudoVariable: 'lavender' # Constant
 rubyComment: '' # Comment
 rubyData: '' # Comment
 rubyDataDirective: '' # Delimiter
@@ -44,7 +46,7 @@ rubyInterpolationDelimiter: '' # Delimiter
 rubyNoInterpolation: '' # rubyString
 rubySharpBang: '' # PreProc
 rubyRegexpDelimiter: '' # rubyStringDelimiter
-rubySymbolDelimiter: 'orange' # rubyStringDelimiter
+rubySymbolDelimiter: '' # rubyStringDelimiter
 rubyStringDelimiter: '' # Delimiter
 rubyHeredoc: '' # rubyString
 rubyString: '' # String
@@ -59,8 +61,9 @@ rubyRegexp: '' # rubyString
 rubyInvalidVariable: '' # Error
 rubyError: '' # Error
 rubySpaceError: '' # rubyError
-rubyArrayDelimiter: 'orange'
-rubyBlockParameterList: 'orange'
-rubyCurlyBlockDelimiter: 'orange'
+rubyArrayDelimiter: '@Delimiter'
+rubyBlockParameterList: '@Delimiter'
+rubyCurlyBlockDelimiter: '@Delimiter'
 rubyDoBlock: 'yellow'
 rubyLocalVariableOrMethod: 'blue_gray'
+rubyMethodBlock: 'tan'

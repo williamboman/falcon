@@ -20,6 +20,7 @@ class Solarized(ColorScheme):
 
         elif context.in_browser:
             fg = 7
+            # selected means under cursor
             if context.selected:
                 attr = reverse
                 fg = 15
@@ -38,11 +39,11 @@ class Solarized(ColorScheme):
             if context.container:
                 fg = 61
             if context.directory:
-                fg = 12
+                fg = 253
             elif context.executable and not \
                     any((context.media, context.container,
                          context.fifo, context.socket)):
-                fg = 15
+                fg = 1
                 attr |= bold
             if context.socket:
                 fg = 136
@@ -75,7 +76,8 @@ class Solarized(ColorScheme):
                     attr |= bold
                 if context.marked:
                     attr |= bold
-                    bg = 237
+                    bg = 3
+                    fg = 8
             if context.badinfo:
                 if attr & reverse:
                     bg = magenta
