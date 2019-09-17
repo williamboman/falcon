@@ -396,14 +396,14 @@ hi clear LspHintHighlight
 hi clear LspHintLine
 hi clear LspHintText
 
-hi LspWarningText gui=italic guibg=NONE guifg=#8a8a8a
-hi LspWarningHighlight gui=italic
+hi LspWarningText gui=italic,underline guibg=NONE guifg=#8a8a8a
+hi LspWarningHighlight gui=italic,underline
 
 hi LspErrorText gui=italic guibg=NONE guifg=#fa8a8a
 hi LspErrorHighlight gui=bold guifg=#eeeeee guibg=#a23b40
 
-hi LspInformationText gui=italic guibg=NONE guifg=#8a8a8a
-hi LspInformationHighlight gui=italic
+hi LspInformationText gui=italic,underline guibg=NONE guifg=#8a8a8a
+hi LspInformationHighlight gui=italic,underline
 
-hi LspHintText gui=italic guibg=NONE guifg=#8a8a8a
-hi LspHintHighlight gui=italic
+hi LspHintText gui=italic,underline guibg=NONE guifg=#8a8a8a
+hi LspHintHighlight gui=italic,underline
