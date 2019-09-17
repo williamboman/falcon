@@ -1,6 +1,6 @@
 " ===============================================================
 " falcon
-" 
+"
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
@@ -381,3 +381,31 @@ hi GitGutterChangeDelete ctermfg=NONE guifg=#ff8000
 hi importCostModule guifg=#cc6766 gui=bold cterm=bold
 hi importCostSize guifg=#e8c675 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi importCostGzipped guifg=#dc925e gui=italic cterm=italic
+
+" vim-lsp
+hi clear LspWarningHighlight
+hi clear LspWarningLine
+hi clear LspWarningText
+hi clear LspErrorHighlight
+hi clear LspErrorLine
+hi clear LspErrorText
+hi clear LspInformationHighlight
+hi clear LspInformationLine
+hi clear LspInformationText
+hi clear LspHintHighlight
+hi clear LspHintLine
+hi clear LspHintText
+
+hi LspWarningText gui=italic guibg=NONE guifg=#8a8a8a
+hi LspWarningHighlight gui=italic
+
+hi LspErrorText gui=italic guibg=NONE guifg=#fa8a8a
+hi LspErrorHighlight gui=bold guifg=#eeeeee guibg=#a23b40
+
+" TODO: fix these once you know what they do
+hi LspInformationHighlight gui=underline
+hi LspInformationLine gui=underline
+hi LspInformationText gui=underline
+hi LspHintHighlight gui=underline
+hi LspHintLine gui=underline
+hi LspHintText gui=underline
