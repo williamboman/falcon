@@ -402,10 +402,8 @@ hi LspWarningHighlight gui=italic
 hi LspErrorText gui=italic guibg=NONE guifg=#fa8a8a
 hi LspErrorHighlight gui=bold guifg=#eeeeee guibg=#a23b40
 
-" TODO: fix these once you know what they do
-hi LspInformationHighlight gui=underline
-hi LspInformationLine gui=underline
-hi LspInformationText gui=underline
-hi LspHintHighlight gui=underline
-hi LspHintLine gui=underline
-hi LspHintText gui=underline
+hi LspInformationText gui=italic guibg=NONE guifg=#8a8a8a
+hi LspInformationHighlight gui=italic
+
+hi LspHintText gui=italic guibg=NONE guifg=#8a8a8a
+hi LspHintHighlight gui=italic
