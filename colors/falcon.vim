@@ -408,6 +408,7 @@ hi typescriptParens guifg=#cc9900
 hi typescriptVariable guifg=#ffefbf
 hi typescriptFuncCallArg guifg=#e0e0e0
 hi typescriptCall guifg=#e0e0e0 gui=bold
+hi typescriptPredefinedType guifg=#ffefbf gui=bold
 
 " light yellow: #ffefbf
 " dark & muted yellow (gold?): #cc9900
