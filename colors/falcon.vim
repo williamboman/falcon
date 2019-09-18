@@ -408,7 +408,7 @@ hi typescriptMember gui=bold
 hi typescriptParens guifg=#cc9900
 hi typescriptVariable guifg=#ffefbf
 hi typescriptFuncCallArg guifg=#e0e0e0
-hi typescriptCall guifg=#e0e0e0 gui=bold
+hi typescriptCall guifg=#afafb2 gui=bold
 
 " light yellow: #ffefbf
 " dark & muted yellow (gold?): #cc9900
