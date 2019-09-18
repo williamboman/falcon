@@ -350,18 +350,16 @@ hi zshParrentheses guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE ct
 " https://github.com/jacoborus/estilo
 " ===================================
 
-" fix colors (TODO: fix cterm colors?)
 hi Normal guifg=#afafb2 guibg=NONE ctermbg=NONE
 hi InactiveWindow guibg=#171717
 hi NonText guifg=#afafb2 guibg=NONE ctermbg=NONE
 hi WildMenu guifg=#171717
 hi String guifg=#e0e0e0 gui=italic cterm=italic
-hi Include guifg=#f74f57
-hi Type guifg=#f4e2af
+hi Type guifg=#ffefbf
 
 " javascript
 hi jsObjectSeparator guifg=#ff8000
-hi jsStorageClass guifg=#f4e2af
+hi jsStorageClass guifg=#ffefbf
 hi jsVariableDef gui=bold cterm=bold
 hi link jsDestructuringBlock jsVariableDef
 hi link jsDestructuringProperty jsVariableDef
@@ -383,27 +381,39 @@ hi importCostSize guifg=#e8c675 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi importCostGzipped guifg=#dc925e gui=italic cterm=italic
 
 " vim-lsp
-hi clear LspWarningHighlight
-hi clear LspWarningLine
-hi clear LspWarningText
-hi clear LspErrorHighlight
-hi clear LspErrorLine
-hi clear LspErrorText
-hi clear LspInformationHighlight
-hi clear LspInformationLine
-hi clear LspInformationText
-hi clear LspHintHighlight
-hi clear LspHintLine
-hi clear LspHintText
-
 hi LspWarningText gui=italic,underline guibg=NONE guifg=#8a8a8a
 hi LspWarningHighlight gui=italic,underline
+hi clear LspWarningLine
 
 hi LspErrorText gui=italic guibg=NONE guifg=#fa8a8a
 hi LspErrorHighlight gui=bold guifg=#eeeeee guibg=#a23b40
+hi clear LspErrorLine
 
 hi LspInformationText gui=italic,underline guibg=NONE guifg=#8a8a8a
 hi LspInformationHighlight gui=italic,underline
+hi clear LspInformationLine
 
 hi LspHintText gui=italic,underline guibg=NONE guifg=#8a8a8a
 hi LspHintHighlight gui=italic,underline
+hi clear LspHintLine
+
+" typescript
+hi typescriptTypeReference gui=italic guifg=#afafb2
+hi typescriptAliasKeyword gui=bold guifg=#ffefbf
+hi link typescriptAliasDeclaration typescriptTypeReference
+hi link typescriptEnum typescriptTypeReference
+hi link typescriptEnumKeyword typescriptAliasKeyword
+hi typescriptMember gui=bold
+hi typescriptParens guifg=#cc9900
+hi typescriptVariable guifg=#ffefbf
+hi typescriptFuncCallArg guifg=#e0e0e0
+hi typescriptCall guifg=#e0e0e0 gui=bold
+
+" light yellow: #ffefbf
+" dark & muted yellow (gold?): #cc9900
+" orange: #ff8000
+" yellow: #ffbf00
+" blue: #8fa3bf
+" white: #e0e0e0
+" light grey: #afafb2
+" red: #f74f57
