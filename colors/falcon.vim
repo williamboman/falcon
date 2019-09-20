@@ -356,14 +356,22 @@ hi NonText guifg=#afafb2 guibg=NONE ctermbg=NONE
 hi WildMenu guifg=#171717
 hi Type guifg=#ffefbf
 
+hi MyVariable guifg=#e0e0e0 gui=bold
+
+" shell
+hi link shVariable MyVariable
+
 " javascript
 hi jsObjectSeparator guifg=#ff8000
 hi jsStorageClass guifg=#ffefbf
-hi jsVariableDef gui=bold cterm=bold
 hi link jsDestructuringBlock jsVariableDef
 hi link jsDestructuringProperty jsVariableDef
 hi link jsGlobalObjects jsVariableDef
 hi link jsGlobalNodeObjects jsGlobalObject
+hi clear jsVariableDef
+hi link jsVariableDef MyVariable
+hi jsModuleBraces guifg=#ff8000
+hi link jsModuleKeyword MyVariable
 " jsx
 hi jsxCloseTag guifg=#cc9900
 hi link jsxCloseString jsxCloseTag
@@ -397,7 +405,7 @@ hi LspHintHighlight gui=italic,underline
 hi clear LspHintLine
 
 " typescript
-hi typescriptTypeReference gui=bold guifg=#e0e0e0
+hi link typescriptTypeReference MyVariable
 hi typescriptPredefinedType gui=italic guifg=#ffefbf
 hi typescriptAliasKeyword gui=bold guifg=#ffefbf
 hi link typescriptAliasDeclaration typescriptTypeReference
@@ -408,7 +416,7 @@ hi typescriptParens guifg=#cc9900
 hi typescriptVariable guifg=#ffefbf
 hi typescriptFuncCallArg guifg=#e0e0e0
 hi typescriptCall guifg=#afafb2 gui=bold
-hi typescriptVariableDeclaration guifg=#e0e0e0 gui=bold
+hi link typescriptVariableDeclaration MyVariable
 hi typescriptLabel guifg=#87afaf
 hi typescriptComputedPropertyName guifg=#87afaf
 hi typescriptTemplateSubstitution guifg=#e0e0e0
