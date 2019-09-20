@@ -29,7 +29,7 @@ hi Error ctermfg=15 ctermbg=9 guifg=White guibg=#d9534f
 hi ErrorMsg guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#89898c ctermfg=245 guibg=#252527 ctermbg=235 gui=NONE cterm=NONE
-hi SignColumn guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SignColumn guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#000002 ctermfg=0 guibg=#bfdaff ctermbg=153 gui=bold cterm=bold
 hi LineNr guifg=#646466 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -52,7 +52,7 @@ hi Visual guifg=#ffefbf ctermfg=229 guibg=#89898c ctermbg=245 gui=NONE cterm=NON
 hi WildMenu guifg=#0b0b1a ctermfg=233 guibg=#ffbf00 ctermbg=214 gui=NONE cterm=NONE
 hi Comment guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi String guifg=#c5c5c5 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Character String
 hi link Boolean Constant
 hi link Number String
@@ -89,12 +89,12 @@ hi BufTabLineHidden guifg=#89898c ctermfg=245 guibg=#3e3e40 ctermbg=237 gui=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#252527 ctermbg=235 gui=NONE cterm=NONE
 hi cPreCondit guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cDefine guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi cStructure guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cStructure guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cStorageClass guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cType guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cCustomParen guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cConditional guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cCustomFunc guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cCustomFunc guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cStatement guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssSelectorOp2 guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -105,11 +105,11 @@ hi cssInclude guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi cssIncludeKeyword guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssImportant guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi cssBraces guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssAttributeSelector guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssAttributeSelector guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssFontDescriptor guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassName guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassNameDot guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssProp guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssProp guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffAdded guifg=NONE ctermfg=NONE guibg=#476629 ctermbg=238 gui=NONE cterm=NONE
 hi diffRemoved guifg=NONE ctermfg=NONE guibg=#663829 ctermbg=237 gui=NONE cterm=NONE
 hi diffFile guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -119,24 +119,24 @@ hi fzf2 guifg=#ff8000 ctermfg=208 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#ff8000 ctermfg=208 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi gitcommitSummary guifg=#dfffbf ctermfg=193 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitBranch guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi gitcommitDiscardedType guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi gitcommitDiscardedType guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedType guifg=#779954 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitDiscardedFile guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedFile guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitconfigSection guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi gitconfigVariable guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi gitconfigVariable guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goDeclaration guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goDeclType guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goType guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goUnsignedInts guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goBuiltins guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi goVar guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi graphqlVariable guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goVar guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi graphqlVariable guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi graphqlStructure guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi graphqlName guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi graphqlKeyword guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi graphqlOperator guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi helpHyperTextJump guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi helpHyperTextJump guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi helpHeadline guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpSectionDelim guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpOption guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -149,11 +149,11 @@ hi link jsClassBraces jsBrackets
 hi link jsBraces jsBrackets
 hi link jsObjectBraces jsBrackets
 hi link jsParens jsBrackets
-hi jsObjectKey guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectKey guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFuncBraces jsBrackets
 hi link jsFuncParens jsBrackets
 hi link jsIfElseBraces jsBrackets
-hi jsFuncArgs guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncArgs guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsExtendsKeyword guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsArrowFunction guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFunction guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -166,34 +166,34 @@ hi jsFuncName guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi jsNull guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsStorageClass guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsObjectSeparator guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsObjectValue guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsExportDefault guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectValue guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsExportDefault guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsRegexpCharClass guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsTemplateBraces guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsThis guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi jsThis guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi jsFuncCall guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsObjectProp guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsConditional guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsVariableDef guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsVariableDef guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncBlock guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsTry guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsCatch jsTry
 hi jsTryCatchBraces guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsGlobalObjects guifg=#779954 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsParen guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsParen guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsParenCatch jsParen
 hi link jsParenIfElse jsParen
 hi jsonBoolean guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonKeywordMatch guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlEqual guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi xmlEndTag guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi xmlTagN guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi xmlTagName guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlEndTag guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlTagN guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlTagName guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncKeyword guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncTable guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncName guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncCall guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi luaFuncArgName guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi luaFuncArgName guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaCond guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaLocal guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncParens guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -205,8 +205,8 @@ hi htmlH3 guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH4 guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH5 guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH6 guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi mkdLink guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi mkdURL guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi mkdLink guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi mkdURL guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link mkdInlineURL mkdURL
 hi mkdBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi htmlBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -223,7 +223,7 @@ hi phpDocTags guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=italic cterm
 hi phpDocCustomTags guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStorageClass guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpClasses guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi phpStructure guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi phpStructure guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi phpNumber guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link phpFloat phpNumber
 hi phpMethod guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -234,14 +234,14 @@ hi phpType guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpMemberSelector guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpOperator guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpVarSelector guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpIdentifier guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpIdentifier guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStringDelimiter guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpSuperglobals guifg=#779954 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpSpecialChar guifg=#779954 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi plugDeleted guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi plugBracket guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi plug1 guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi plug2 guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi plug2 guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonStatement guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonFunction guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonExClass guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -250,19 +250,19 @@ hi pythonDot guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi rubyDefine guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyFunction guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyConstant guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubySymbol guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubySymbol guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubySymbolDelimiter guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyArrayDelimiter guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyBlockParameterList guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyCurlyBlockDelimiter guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyDoBlock guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyLocalVariableOrMethod guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi shVariable guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyLocalVariableOrMethod guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi shVariable guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi mysqlKeyword guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi mysqlOperator guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi mysqlFunction guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi sshconfigKeyword guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi sshconfigMatch guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi sshconfigKeyword guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi sshconfigMatch guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sshconfigYesNo guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sshconfigLogLevel guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySlash guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -271,8 +271,8 @@ hi StartifyHeader guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cte
 hi StartifyFile guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySection guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarComment guifg=#3e3e40 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TagbarKind guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TagbarNestedKind guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarKind guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarNestedKind guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarScope guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarType guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarSignature guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -283,16 +283,16 @@ hi TagbarVisibilityPublic guifg=#779954 ctermfg=101 guibg=NONE ctermbg=NONE gui=
 hi TagbarVisibilityProtected guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarVisibilityPrivate guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxCmds guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tmuxOptsSet guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tmuxOptsSet guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tmuxOptsSetw guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tmuxOptsSetw guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigVarDelim guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigTagDelim guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlEndTag guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigString guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigOperator guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigTagBlock guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlLink guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlLink guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigVariable guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi snipSnippetHeaderKeyword guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi snipSnippetFooterKeyword guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -300,22 +300,22 @@ hi GitGutterAdd guifg=#779954 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi GitGutterChange guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SignatureMarkText guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SignatureMarkText guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommentTitle guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi vimCommand guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi vimVar guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimVar guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimLet guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimNotFunc guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimIsCommand guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi vimOperParen guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi vimFuncVar guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi vimOperParen guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimFuncVar guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi vimFuncName guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimAutoEvent guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi vimMap guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi vimGroup guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi vimHiTerm guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimMap guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimGroup guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimHiTerm guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimSetSep guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiLink guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi VimwikiLink guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi VimwikiHeaderChar guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeader1 guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi 1imwikiHeader2 guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -328,7 +328,7 @@ hi VimwikiPre guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi VimwikiCode guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowStringDelimiter guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockCollectionItemStart guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi yamlBlockMappingKey guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi yamlBlockMappingKey guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowMappingKey guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlNull guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -337,7 +337,7 @@ hi yamlPlainScalar guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE ct
 hi zshCommands guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshBrackets guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshOptStart guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi zshVariableDef guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi zshVariableDef guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshTypes guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshKeyword guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshStringDelimiter guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -354,7 +354,6 @@ hi Normal guifg=#afafb2 guibg=NONE ctermbg=NONE
 hi InactiveWindow guibg=#171717
 hi NonText guifg=#afafb2 guibg=NONE ctermbg=NONE
 hi WildMenu guifg=#171717
-hi String guifg=#e0e0e0 gui=italic cterm=italic
 hi Type guifg=#ffefbf
 
 " javascript
@@ -398,7 +397,7 @@ hi LspHintHighlight gui=italic,underline
 hi clear LspHintLine
 
 " typescript
-hi typescriptTypeReference gui=italic guifg=#afafb2
+hi typescriptTypeReference gui=bold guifg=#e0e0e0
 hi typescriptPredefinedType gui=italic guifg=#ffefbf
 hi typescriptAliasKeyword gui=bold guifg=#ffefbf
 hi link typescriptAliasDeclaration typescriptTypeReference
@@ -409,12 +408,19 @@ hi typescriptParens guifg=#cc9900
 hi typescriptVariable guifg=#ffefbf
 hi typescriptFuncCallArg guifg=#e0e0e0
 hi typescriptCall guifg=#afafb2 gui=bold
+hi typescriptVariableDeclaration guifg=#e0e0e0 gui=bold
+hi typescriptLabel guifg=#87afaf
+hi typescriptComputedPropertyName guifg=#87afaf
+hi typescriptTemplateSubstitution guifg=#e0e0e0
+hi typescriptTemplateSB guifg=#ff8000
+
 
 " light yellow: #ffefbf
 " dark & muted yellow (gold?): #cc9900
 " orange: #ff8000
 " yellow: #ffbf00
 " blue: #8fa3bf
+" turquoise: #87afaf
 " white: #e0e0e0
 " light grey: #afafb2
 " red: #f74f57
