@@ -167,7 +167,7 @@ hi jsNull guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsStorageClass guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsObjectSeparator guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsObjectValue guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsExportDefault guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsExportDefault guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsRegexpCharClass guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsTemplateBraces guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsThis guifg=#87afaf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -372,6 +372,9 @@ hi clear jsVariableDef
 hi link jsVariableDef MyVariable
 hi jsModuleBraces guifg=#ff8000
 hi link jsModuleKeyword MyVariable
+hi jsImport guifg=#ff8000
+hi link jsExport jsImport
+hi link jsFrom jsImport
 " jsx
 hi jsxCloseTag guifg=#cc9900
 hi link jsxCloseString jsxCloseTag
@@ -407,11 +410,11 @@ hi clear LspHintLine
 " typescript
 hi link typescriptTypeReference MyVariable
 hi typescriptPredefinedType gui=italic guifg=#ffefbf
-hi typescriptAliasKeyword gui=bold guifg=#ffefbf
+hi typescriptAliasKeyword guifg=#cc9900
 hi link typescriptAliasDeclaration typescriptTypeReference
 hi link typescriptEnum typescriptTypeReference
 hi link typescriptEnumKeyword typescriptAliasKeyword
-hi typescriptMember gui=bold
+hi link typescriptMember typescriptLabel
 hi typescriptParens guifg=#cc9900
 hi typescriptVariable guifg=#ffefbf
 hi typescriptFuncCallArg guifg=#e0e0e0
@@ -421,6 +424,7 @@ hi typescriptLabel guifg=#87afaf
 hi typescriptComputedPropertyName guifg=#87afaf
 hi typescriptTemplateSubstitution guifg=#e0e0e0
 hi typescriptTemplateSB guifg=#ff8000
+hi link typescriptDebugger Keyword
 
 
 " light yellow: #ffefbf
