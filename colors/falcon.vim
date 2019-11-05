@@ -391,20 +391,24 @@ hi importCostSize guifg=#e8c675 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi importCostGzipped guifg=#dc925e gui=italic cterm=italic
 
 " vim-lsp
-hi LspWarningText gui=italic,underline guibg=NONE guifg=#8a8a8a
-hi LspWarningHighlight gui=italic,underline
+hi LspWarningText gui=italic guibg=NONE guifg=#8a8a8a
+hi LspWarningHighlight gui=underline
 hi clear LspWarningLine
 
 hi LspErrorText gui=italic guibg=NONE guifg=#fa8a8a
 hi LspErrorHighlight gui=bold guifg=#eeeeee guibg=#a23b40
 hi clear LspErrorLine
 
-hi LspInformationText gui=italic,underline guibg=NONE guifg=#8a8a8a
-hi LspInformationHighlight gui=italic,underline
+hi clear LspInformationText
+hi clear LspInformationHighlight
+hi link LspInformationText LspWarningText
+hi link LspInformationHighlight LspWarningHighlight
 hi clear LspInformationLine
 
-hi LspHintText gui=italic,underline guibg=NONE guifg=#8a8a8a
-hi LspHintHighlight gui=italic,underline
+hi clear LspHintText
+hi clear LspHintHiglight
+hi link LspHintText LspWarningText
+hi link LspHintHiglight LspWarningHighlight
 hi clear LspHintLine
 
 " typescript
